@@ -1,17 +1,15 @@
-Welcome to Lumache's documentation!
+IGVF - 10X Multiome Analysis documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
+This website contains documentation pertaining
+to the analysis of 10X scRNA/scATAC-seq multiome data in
+preparation for UCLA's IGVF pilot project. I include
+all code used to generate all intermediate
+files and data, starting from fastq files.
+I highlight the main steps performed
+in a standard multiome analysis and
+document popular computational approaches
+and software tools available at each step.
 
 Contents
 --------
@@ -19,4 +17,7 @@ Contents
 .. toctree::
 
    usage
+   rna
+   atac
+   cellranger
    api
